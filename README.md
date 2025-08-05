@@ -27,34 +27,34 @@
 
 ##　データ分析の結果
 * 売り上げはベッド・バス・テーブル用品」や「健康・美容」といった特定のカテゴリに依存している傾向が見られ、またバブルチャートを見てみると販売数は少ないが単価が高いニッチな群と、販売数は多いが単価が低い売れ筋群の存在がわかる。
-![システム構成図](images\sales_bycate.png)
-![システム構成図](images\bubblechart.png)
+![システム構成図](images/sales_bycate.png)
+![システム構成図](images/bubblechart.png)
 
 * 売り上げはサンパウロ州(SP)などの特定の州に集中して地域によって売り上げの規模に大きな差がある。
-![システム構成図](images\sales_bystate.png)
+![システム構成図](images/sales_bystate.png)
 
 * レビュー評価ごとの平均単価を比べると3が一番低く1,5が高水準にあり、これは単価が高いと期待が上がりすぎたことを示唆している。
-![システム構成図](images\meansales_byreview.png)
+![システム構成図](images/meansales_byreview.png)
 
 * 100レアル以上の高価格商品の購入者のレビュー評価の分布は全体のレビュー評価の分布とさほど変わらない
-![システム構成図](images\review_score.png)
-![システム構成図](images\review_score_up100.png)
+![システム構成図](images/review_score.png)
+![システム構成図](images/review_score_up100.png)
 
 * 販売数量の多い人気のカテゴリにおいて、ほとんどの場合、分割10回払い以下で払い終えていることから分割払いが購入の後押しになっている可能性。
-![システム構成図](images\payinstallment_bycate.png)
+![システム構成図](images/payinstallment_bycate.png)
 
 *  実際の配達が配達予定日より遅れるとレビュー評価が大きく下がる。これは顧客満足度に与える最も大きな影響が配送品質である可能性
-![システム構成図](images\review_bydelay.png)
+![システム構成図](images/review_bydelay.png)
 
 * 2回以上購入した人をリピーターとするとリピーターと非リピーターの平均レビュー評価はわずかにリピーターのほうが高いのでリピーターを育成する意義が見える
-![システム構成図](images\review_byrepeater.png)
+![システム構成図](images/review_byrepeater.png)
 
 * リピーターの売り上げはそうでないほうと比べるとそこまで差があるわけではない
-![システム構成図](images\meansales_byreview.png)
+![システム構成図](images/meansales_byreview.png)
 
 * ヒートマップ分析により、注文件数は平日の午後に最も集中する傾向があることがわかります。概ねの商品カテゴリ、顧客の居住地の組み合わせでも同じ傾向が見て取れます。
-![システム構成図](images\heatmap_bytime.png)
-![システム構成図](images\pattern_bySPbeauty.png)
+![システム構成図](images/heatmap_bytime.png)
+![システム構成図](images/pattern_bySPbeauty.png)
 
 ## Olist社への提言
 ### 提言1：配送プロセスの改善
